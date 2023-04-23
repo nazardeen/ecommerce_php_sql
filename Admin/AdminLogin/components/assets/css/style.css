@@ -1,0 +1,64 @@
+@import 'root.css';
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: var(--primary-grey-color);
+}
+
+a{
+  text-decoration: none;
+  color: var(--white);
+  transition: var(--transition-normal);
+}
+a:hover{
+  color: var(--light-grey-color);
+}
+li{
+  list-style: none;
+}
+
+/* ============================== Use comments ====================================== */
+
+/* top bar  */
+.top_bar{
+
+}
+.top_heading{
+
+
+background-color: var(--black);
+display: flex;
+flex-direction: column;
+
+
+height: 20vh;
+
+
+color: var(--white);
+
+justify-content: center;
+align-items: center;
+
+
+}
+.cutsomer{
+
+}
+.loginreg{
+
+}
+
+
+/* login form  */
+
+.Login_form{
+
+  margin: 2rem;
+}
+
+.email_address{
+
+  margin-bottom: 1rem;
+}

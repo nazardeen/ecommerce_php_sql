@@ -1,0 +1,184 @@
+@import 'root.css';
+/* search btn css */
+
+
+/* master button class */
+.button_master{
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: all .3s ease-in-out;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+
+}
+.button_master:focus{
+  outline: 0;
+
+}
+
+.btn-search{
+    border: 1px solid var(--light-grey-color);
+  background-color: transparent;
+    color: none;
+    padding: 0 20px;
+    border-radius: 0px 50px 50px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-search i{
+    color: var(--secondary-light-grey);
+    font-size: 1.4rem;
+  }
+
+  /* primary button  */
+  .btn_primary{
+
+    background-color: var(--primary-color);
+    cursor: pointer;
+
+  }
+  .btn_primary:hover, .btn_round:hover{
+
+    letter-spacing: .1rem;
+    background-color: var(--color-primary-light);
+
+  }
+
+  /* green color  */
+  .btn_primary_rounded{
+    border: none;
+    
+    padding: 1.5rem;
+    border-radius: 100px;
+    background-color: rgb(70, 180, 98);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    transition: all .2s ease-out;
+  }
+  .btn_primary_rounded:hover{
+    background-color: rgb(82, 204, 112);
+  }
+
+  /* bg color round  */
+  .btn_round{
+
+    border-radius: 100px;
+    background-color: var(--primary-color);
+  }
+
+  /* outline square  */
+  .btn_outline{
+
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--black);
+  }
+
+  .btn_outline:hover, .btn_outline_round:hover{
+
+    background-color: var(--primary-color);
+    color: var(--white);
+  }
+
+  /* rounded outline  */
+  .btn_outline_round{
+
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--black);
+    border-radius: 100px;
+  }
+
+  /* bg color  */
+  .red_primary{
+
+    background-color: var(--color-primary-red);
+  }
+  .red_primary:hover{
+
+    background-color: var(--color-primary-red-light);
+  }
+
+  .green_primary{
+
+    background-color: var(--color-primary-green);
+  }
+  .green_primary:hover{
+
+    background-color: var(--color-primary-green-light);
+  }
+
+
+  /* outline  */
+
+  .red_primary_outline{
+
+    background-color: transparent;
+    border: 1px solid var(--color-primary-red);
+    color: var(--black);
+  }
+  .red_primary_outline:hover{
+
+    background-color: var(--color-primary-red);
+    color: var(--white);
+  }
+
+  .green_primary_outline{
+
+    background-color: transparent;
+    border: 1px solid var(--color-primary-green);
+    color: var(--black);
+  }
+  .green_primary_outline:hover{
+
+    background-color: var(--color-primary-green);
+    color: var(--white);
+  }
+
+
+
+
+  /* input fields  */
+
+  .master_input{
+
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    background-color: var(--color-grey-light-1);
+    transition: all .2s ease-out;
+    padding: 2rem;
+  }
+
+  
+  .master_input:focus{
+
+   outline: 0;
+  }
+  .primary_input{
+    transition: all .5s ease-in;
+    border-width: 50%;
+    position: relative;
+  }
+
+  .primary_input:focus{
+    border-width: 100%;
+    border-bottom: 1px solid var(--primary-color);
+  }
+
+  .primary_input_round{
+    transition: all .5s ease-in;
+    border-radius: 50px;
+
+  }
+
+  .primary_input_round:focus{
+
+  }

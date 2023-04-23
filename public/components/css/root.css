@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,400&display=swap");
+:root {
+    --primary-color: #0e62a2;
+    --color-primary-light: #1b84d4;
+    --color-primary-dark: #0b4b7c;
+
+
+    --color-primary-green:#55c57a;
+    --color-primary-green-light:#45b169;
+    --color-primary-green-dark:#28b485;
+
+    --color-primary-red:#eb2f64;
+    --color-primary-red-light:#FF3366;
+    --color-primary-red-dark:#BA265D;
+
+    
+    --color-primary-yellow:#d4b447;
+    --color-primary-yellow-light:#d1b65b;
+    --color-primary-yellow-dark:#bb9b34;
+
+    --light-grey-color: #DBD8D5;
+
+    --font-color-dark: #333333;
+
+    --primary-dark-grey-1:#202020;
+    --primary-dark-grey-2:#2c2c2c;
+
+
+    --secondary-light-grey :#7C7977;
+    --primary-light-grey:#f9f9f9;
+
+
+    --white: #fff;
+    --black:#000;
+  
+    --color-grey-light-1:#faf9f9;
+    --color-grey-light-2:#f4f2f2;
+    --color-grey-light-3:#f0eeee;
+    --color-grey-light-4:#ccc;
+
+    --color-grey-dark-1:#333;
+    --color-grey-dark-2:#777;
+    --color-grey-dark-3:#999;
+  
+    /* transition values  */
+  
+    --transition-normal: all .1s ease-out;
+    --transition-slow: all .2s ease-out;
+  }

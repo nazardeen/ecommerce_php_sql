@@ -1,0 +1,69 @@
+/* top bar  */
+.login_section{
+  flex:1;
+}
+
+
+.main_bar{
+
+
+}
+
+.top_heading{
+
+
+background-color: var(--black);
+display: flex;
+flex-direction: column;
+
+
+height: 20vh;
+
+
+color: var(--white);
+
+justify-content: center;
+align-items: center;
+
+
+}
+
+.account_form{
+  margin-top: 1rem;
+}
+
+.cutsomer{
+
+}
+.loginreg{
+
+}
+
+/* login form  */
+
+.Login_form{
+  /* margin: 2rem; */
+}
+
+.form_header{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.register{
+
+}
+
+.email_address{
+
+  margin-bottom: 1rem;
+}
+
+.vertical_line{
+  width: .3rem;
+  height: 90%;
+  background-color: var(--primary-dark-grey-2);
+  transform-origin: center;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}

@@ -1,0 +1,18 @@
+RewriteEngine On
+
+#RewriteCond %{REQUEST_FILENAME} !-f 
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^item/([0-9a-zA-Z_-]+) item.php?item_id=$1 [NC,L]
+
+RewriteRule ^mobilephones$ products.php [NC,L]
+RewriteRule ^cart$ Cart.php [NC,L]
+RewriteRule ^home$ index.php [NC,L]
+RewriteRule ^customerLogin$ RegisterForm.php [NC,L]
+RewriteRule ^mobilephoneaccessories$ products.php [NC,L]
+RewriteRule ^SPEAKERS$ products.php [NC,L]
+RewriteRule ^orderhistory$ order_history.php [NC,L]
+RewriteRule ^UserManage$ UserManage.php [NC,L]
+RewriteRule ^searchResults$ searchResults.php [NC,L]
+RewriteRule ^smartdevices$ products.php [NC,L]
+RewriteRule ^contactus$ contactus.php [NC,L]
+RewriteRule ^aboutus$ aboutus.php [NC,L]
